@@ -30,6 +30,7 @@ body{
 
 /* scoreboard */
 .scoreboard{
+    position: relative;
     text-align: center;
     color: #ffffff;
     margin-top: 10px;
@@ -111,11 +112,11 @@ footer{
 }
 
 .red-glow {
-    border: 4px solid #fc121b;
+    border: 4px solid #fc121b !important;
     box-shadow: 0 0 10px #d01115;
 }
 
 .gray-glow {
-    border: 4px solid #464647;
+    border: 4px solid #464647 !important;
     box-shadow: 0 0 10px #25292b;
 }
